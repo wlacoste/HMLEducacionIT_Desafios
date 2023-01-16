@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 2</title>
+    <link rel="stylesheet" href="css/estilos.css" />
+  </head>
+  <body>
+    <hr />
+
+    <header>
+      <nav>
+        <img id="logo" src="img/M5-logo-azul.svg" alt="" />
+        <ul>
+          <li class="activo"><a href="index.html">HOME</a></li>
+          <li><a href="contacto.html">CONTACTO</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div id="formulario">
+      <p id="consulta">¿Queres que nos contactemos con vos?</p>
+      <p>Dejanos tu consulta:</p>
+      <form action="">
+        <div>
+          <label for="nombre">Nombre completo</label>
+          <input
+            type="text"
+            name="nombre"
+            id="nombre"
+            required
+            placeholder=" Eustaquio Pavirela"
+          />
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input
+            type="text"
+            name="email"
+            id="email"
+            required
+            placeholder="nombre@mail.com"
+          />
+        </div>
+        <div>
+          <label for="comentario">Comentario</label>
+          <textarea name="comentario" id="comentario" required> </textarea>
+        </div>
+        <div id="botones">
+          <input id="boton1" type="reset" value="Resetear" />
+          <input id="boton2" type="submit" value="Enviar" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

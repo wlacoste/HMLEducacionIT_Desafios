@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;900&display=swap");
+
+div p {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  margin: 0%;
+}
+
+#div1,
+#div3,
+#div5 {
+  background-color: black;
+  color: white;
+  padding: 0.5em 0;
+}
+
+#div1 p {
+  font-size: 67px;
+  padding: 0.5em 0;
+}
+#div2 p {
+  font-size: 197px;
+}
+#div3 p {
+  font-size: 217px;
+  padding: 0.5em 0;
+}
+#div4 p strong {
+  font-size: 60px;
+}
+#div4 p {
+  font-weight: 600;
+  font-size: 48px;
+}
+#div5 p {
+  font-weight: 600;
+  font-size: 59px;
+  padding: 0.5em 0;
+}
